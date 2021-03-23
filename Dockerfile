@@ -14,7 +14,7 @@ RUN apk update && apk upgrade \
 RUN docker-php-ext-install zip
 
 RUN echo -e "Install sebastian/phpcpd" \
-    && composer global require sebastian/phpcpd detector-lint --prefer-dist --no-progress \
+    && composer global require sebastian/phpcpd --prefer-dist --no-progress \
     && ln -nfs /root/.composer/vendor/sebastian/phpcpd /usr/bin/phpcpd \
     && chmod a+x /entrypoint.sh
 
