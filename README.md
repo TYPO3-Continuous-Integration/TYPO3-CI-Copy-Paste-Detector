@@ -4,4 +4,4 @@ This action lints CopyPaste detector code of your TYPO3 extension.
 
 ## Example usage
 
-uses: typo3-continuous-integration/typo3-ci-copypaste-detector@v1
+uses: typo3-continuous-integration/typo3-ci-copy-paste-detector@v1
