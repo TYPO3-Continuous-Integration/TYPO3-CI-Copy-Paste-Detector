@@ -1,5 +1,9 @@
 #!/bin/sh -l
 
+set -e
+
+input_paths="$1"
+
 ### Function Header ###########################################################
 Header() {
   ##########
@@ -21,7 +25,7 @@ Lint() {
   echo "---------------------------------------------"
   echo "-- Running lint... ---"
   echo "---------------------------------------------"
-  phpcpd Classes Configuration Tests
+  sh -c "phpcpd $_input_paths"
 }
 
 #### Function Footer ###########################################################

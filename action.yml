@@ -4,6 +4,13 @@ description: 'GitHub Action that checks for any copy paste occurrences in your c
 branding:
   icon: check
   color: orange
+inputs:
+  files:
+    description: 'Files you want to lint.'
+    required: false
+    default: 'Classes Configuration Tests'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args:
+    - ${{ inputs.files }}
