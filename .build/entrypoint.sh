@@ -10,10 +10,10 @@ Header() {
   # Prints #
   ##########
   echo "---------------------------------------------"
-  echo "-- GitHub Actions TYPO3 CopyPaste detector Linter ---"
+  echo "-- GitHub Actions TYPO3 Copy'n'Paste Detector ---"
   echo "---------------------------------------------"
   echo "TYPO3 CopyPaste detector Linter source code can be found at:"
-  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-Copy-Paste-Detector-Lint"
+  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-Copy-Paste-Detector"
   echo "---------------------------------------------"
 }
 
