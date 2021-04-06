@@ -15,7 +15,7 @@ RUN docker-php-ext-install zip
 
 RUN echo -e "Install sebastian/phpcpd" \
     && composer global require sebastian/phpcpd --prefer-dist --no-progress \
-    && ln -nfs /root/.composer/vendor/sebastian/phpcpd /usr/bin/phpcpd \
+    && ln -nfs /root/.composer/vendor/sebastian/phpcpd/phpcpd /usr/bin/phpcpd \
     && chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
