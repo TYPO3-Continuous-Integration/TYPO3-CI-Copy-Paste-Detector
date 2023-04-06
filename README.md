@@ -2,6 +2,9 @@
 
 This action lints CopyPaste detector code of your TYPO3 extension.
 
+NOTE: The CopyPaste detector got archived and is no longer maintained.
+Therefore this action is also archived and no longer maintained.
+
 ## Inputs
 
 ### `Files`
